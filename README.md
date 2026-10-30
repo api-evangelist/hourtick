@@ -64,5 +64,134 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Hourtick is a company surfaced via the API Evangelist harvest backlog (source: new-submission) and added to the network as a stub for full-pipeline profiling.
-- https://hourtick.com
+Hourtick provides a collaborative platform for tasks, team chat, and time tracking enhanced with AI agents such as Claude, GPT, Grok, and Muse. It enables teams to assign work, monitor progress, and estimate costs using AI-driven insights. The service offers free plans for unlimited users, integrates with popular tools, and includes features like automated time logging, AI-powered task suggestions, and detailed reporting.
+
+**Areas:** Company · Collaboration · Artificial Intelligence · Time Tracking · Project Management
+
+## Hourtick on APIs.io
+
+Everything profiled for Hourtick is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/hourtick/](https://apis.io/providers/hourtick/)** — or go straight to one of the APIs or properties below.
+
+### APIs (13)
+
+- [Hourtick API](https://apis.io/apis/hourtick/hourtick-api/) — The Hourtick REST API provides task, time tracking, and AI agent operations. Auth via personal API token.
+- [Hourtick Account API](https://apis.io/apis/hourtick/hourtick-account-api/) — Who you are and what you can track on.
+- [Hourtick Agents API](https://apis.io/apis/hourtick/hourtick-agents-api/) — AI agents are workspace members with their own token. Mention one in chat, DM it, or hand it a task, and a session is queued. The agent takes work over MCP…
+- [Hourtick Billing API](https://apis.io/apis/hourtick/hourtick-billing-api/) — Usage (stored data plus data in and out this month) and extra usage. Every plan has unlimited people.
+- [Hourtick Catalog API](https://apis.io/apis/hourtick/hourtick-catalog-api/) — Clients, projects and task types (admins).
+- [Hourtick Chat API](https://apis.io/apis/hourtick/hourtick-chat-api/) — Channels, DMs, threads, reactions, files and search. Message bodies are Markdown; reference things with links: `[#12 Title](hourtick://task/<id>)`,…
+- [Hourtick Integrations API](https://apis.io/apis/hourtick/hourtick-integrations-api/) — Your own accounts in Linear, Notion, Teamwork and Asana. Connecting needs a person's browser (OAuth); AI agents can't connect or link, and never post…
+- [Hourtick Invoices API](https://apis.io/apis/hourtick/hourtick-invoices-api/) — Invoices through the workspace's own Stripe account (Stripe Connect). An admin connects Stripe in Settings; Stripe Invoicing issues, emails and collects…
+- [Hourtick Notes and files API](https://apis.io/apis/hourtick/hourtick-notes-and-files-api/) — Documents and files on a client or a project. Everyone in the workspace can read and add them; the author or a manager deletes. Notes are Tiptap JSON with a…
+- [Hourtick Reports API](https://apis.io/apis/hourtick/hourtick-reports-api/) — Aggregated time and CSV.
+- [Hourtick Tasks API](https://apis.io/apis/hourtick/hourtick-tasks-api/) — The task board: tasks (work items), checklist, chat and files. Any member can create and edit.
+- [Hourtick Team API](https://apis.io/apis/hourtick/hourtick-team-api/) — Approvals, invoicing and members (role-gated).
+- [Hourtick Time API](https://apis.io/apis/hourtick/hourtick-time-api/) — Timers and time entries. Link time to a task with `workItemId` on start, create or edit.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### JSON Schema (2)
+
+The data models the API reads and writes.
+
+- [TimeEntry](https://apis.io/schemas/hourtick/hourtick-time-entry/)
+- [WorkItem](https://apis.io/schemas/hourtick/hourtick-work-item/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Hourtick Context](https://apis.io/jsonld/hourtick/hourtick-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Hourtick API Rules](https://apis.io/rules/hourtick/hourtick-rules/)
+
+#### Security (4)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Hourtick Authentication](https://apis.io/security/hourtick/hourtick-authentication/)
+- [Hourtick Domain Security](https://apis.io/security/hourtick/hourtick-domain-security/)
+- [Hourtick Trust Center](https://apis.io/security/hourtick/hourtick-trust-center/)
+- [Hourtick Vulnerability Disclosure](https://apis.io/security/hourtick/hourtick-vulnerability-disclosure/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Hourtick Plans Pricing](https://apis.io/plans/hourtick/hourtick-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://hourtick.com)
+- [Documentation](https://hourtick.com/developers)
+- [Getting started](https://hourtick.com/announcements/a-guide-for-every-ai-app)
+- [API reference](https://hourtick.com/announcements)
+- [Pricing](https://hourtick.com/pricing)
+- [Security](https://hourtick.com/security)
+- [Compliance](https://hourtick.com/security)
+- [Terms of service](https://hourtick.com/terms)
+- [Privacy policy](https://hourtick.com/privacy)
+- [GitHub](https://github.com/Hourtick)
+
+## API Evangelist rating
+
+**Kin Score 53.4** — developing · rubric 0.25.0 · scored 2026-10-23
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.7 |
+| Contract quality | 56.3 |
+| Contract governance | 35.6 |
+| Operational transparency | 15.8 |
+| Developer ergonomics | 40.5 |
+| Access clarity | 81.6 |
+
+**Agent readiness 38.9** — agent-native
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | documented (partial credit) |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | verified |
+| Error Semantics | verified |
+| OpenAPI Examples | partial |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | — |
+| Operation Distinctiveness | distinct |
+
+**Regulatory alignment 32.7** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/hourtick/](https://apis.io/providers/hourtick/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Hourtick: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/hourtick/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
